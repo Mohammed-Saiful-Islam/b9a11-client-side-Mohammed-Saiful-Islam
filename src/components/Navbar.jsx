@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="navbar-end" >
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
-                    <img src="https://i.ibb.co/CWXFjQ8/Screenshot-103.png" alt="" />
+                    <img src="https://img.icons8.com/plasticine/100/saving-book.png" alt="" />
                     </div>
                 </label>
                 {/* {
