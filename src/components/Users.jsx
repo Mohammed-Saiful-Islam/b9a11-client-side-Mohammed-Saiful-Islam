@@ -24,10 +24,10 @@ const Users = () => {
     }
 
     return (
-        <div>
+        <div className="">
             <Navbar/>
-     <h2>Users: {loadedUsers.length}</h2>
-     <div className="overflow-x-auto">
+     <div className="overflow-x-auto max-w-6xl mx-auto">
+     <h2 className="text-center font-bold text-3xl">Students: {loadedUsers.length}</h2>
                 <table className="table">
                     {/* head */}
                     <thead>

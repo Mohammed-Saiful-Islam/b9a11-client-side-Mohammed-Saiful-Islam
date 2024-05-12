@@ -9,7 +9,7 @@ const Footer = () => {
   <aside>
    <img src='https://img.freepik.com/premium-vector/study-group-logo-template-design_20029-469.jpg?w=740' alt="" className='w-96' />
     <p className="font-bold">
-      Mallik OSS Co. Ltd. <br/>Providing Online Study Service since 1991
+      Mallik OGSS Co. Ltd. <br/>Providing Online Group Study Service since 1991
     </p> 
     <p>Copyright © 2024 - All right reserved</p>
   </aside> 
