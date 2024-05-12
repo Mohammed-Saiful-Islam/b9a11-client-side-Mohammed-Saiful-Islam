@@ -29,7 +29,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-blue-600 text-yellow-300">
+        <div className="navbar bg-orange-950 text-yellow-300">
             
             <div className="navbar-start">
                 
