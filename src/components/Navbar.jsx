@@ -29,7 +29,8 @@ const Navbar = () => {
 
 
     return (
-        <div className="navbar bg-orange-950 text-yellow-300">
+        <div className=" bg-orange-950">
+            <div className="navbar text-yellow-300 max-w-6xl mx-auto">
             
             <div className="navbar-start">
                 
@@ -62,6 +63,7 @@ const Navbar = () => {
                 } */}
 
             </div>
+        </div>
         </div>
     );
 };

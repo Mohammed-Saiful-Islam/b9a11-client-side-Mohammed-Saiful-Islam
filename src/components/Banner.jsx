@@ -2,8 +2,8 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div>
-<div className="carousel w-full h-96">
+        <div className='max-w-6xl mx-auto'>
+<div className="carousel w-full h-96 ">
   <div id="item1" className="carousel-item w-full">
     <img src="https://img.freepik.com/free-vector/dhaka-city-bangladesh-top-landmarks-white-background-vector-illustration-business-travel-tourism-concept-with-modern-buildings-image-banner-web-site_596401-423.jpg?w=740&t=st=1714460770~exp=1714461370~hmac=78b77555a98a0d1426de6445e9cbbdb7882a21ad1387ed2a044e2339433e2c63" className="w-full" />
   </div> 
