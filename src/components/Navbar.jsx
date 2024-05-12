@@ -17,14 +17,14 @@ const Navbar = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/signin">Login</NavLink></li>
         <li><NavLink to="/signup">Register</NavLink></li>
-        <li><NavLink to="/users">Users</NavLink></li>
-        <li><NavLink to="/addCoffee">Add Tourists Spot</NavLink></li>
-        <li><NavLink to="/dhaka">Dhaka</NavLink></li>
+        <li><NavLink to="/users">Students</NavLink></li>
+        <li><NavLink to="/addCoffee">Create An Assignment</NavLink></li>
+        {/* <li><NavLink to="/dhaka">Dhaka</NavLink></li>
         <li><NavLink to="/capetown">Cape Town</NavLink></li>
         <li><NavLink to="/london">London</NavLink></li>
         <li><NavLink to="/washingtondc">Washington D.C.</NavLink></li>
         <li><NavLink to="/brasilla">Brasilia</NavLink></li>
-        <li><NavLink to="/canberra">Canberra</NavLink></li>
+        <li><NavLink to="/canberra">Canberra</NavLink></li> */}
     </>
 
 
