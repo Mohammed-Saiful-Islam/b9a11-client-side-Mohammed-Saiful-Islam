@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer footer-center p-10 bg-[blue] text-[#c88034]">
   <aside>
-   <img src='https://i.ibb.co/6vZ5WSk/New-Bitmap-Image-4.png' alt="" className='w-96' />
+   <img src='https://img.freepik.com/premium-vector/study-group-logo-template-design_20029-469.jpg?w=740' alt="" className='w-96' />
     <p className="font-bold">
       Mallik TSWS Co. Ltd. <br/>Showing Tourist Spots since 1991
     </p> 
