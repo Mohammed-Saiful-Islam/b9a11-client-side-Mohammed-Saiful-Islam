@@ -3,7 +3,6 @@ import { useLoaderData } from 'react-router-dom'
 import './App.css'
 import CoffeeCard from './components/CoffeeCard';
 import { useState } from 'react';
-import { Helmet } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
