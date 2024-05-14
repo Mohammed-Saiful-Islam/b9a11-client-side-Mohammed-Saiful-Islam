@@ -30,7 +30,7 @@ const UpdateCoffee = () => {
 
         // send data to the server
       // send data to the server
-      fetch(`https://coffee-store-server-dun-delta.vercel.app/assignment/${_id}`,{
+      fetch(`https://coffee-store-server-dun-delta.vercel.app/coffee/${_id}`,{
         method:'PUT',
         headers:{
             'content-type':'application/json'

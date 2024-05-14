@@ -25,7 +25,7 @@ const AddAssignment = () => {
         console.log(newCoffee);
 
         // send data to the server
-      fetch('https://coffee-store-server-dun-delta.vercel.app/assignment',{
+      fetch('https://coffee-store-server-dun-delta.vercel.app/coffee',{
         method:'POST',
         headers:{
             'content-type':'application/json'
