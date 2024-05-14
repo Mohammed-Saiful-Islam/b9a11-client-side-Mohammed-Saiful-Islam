@@ -19,7 +19,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
             if (result.isConfirmed) {
 
 
-                fetch(`https://coffee-store-server-dun-delta.vercel.app/coffee/${_id}`,{
+                fetch(`https://coffee-store-server-dun-delta.vercel.app/assignment/${_id}`,{
                 method: 'DELETE'
                 })
                     .then(res => res.json())
