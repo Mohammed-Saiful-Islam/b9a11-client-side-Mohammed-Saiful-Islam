@@ -47,23 +47,23 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
             </div>
             <div className="card-actions justify-end">
                     <div className=" space-y-4">
-                        <Link to={`updateCoffee/${_id}`}>
-                        <button className="btn bg-green-600">Edit</button>
-                        </Link>
+                        
+                        <button className="btn bg-green-600">Join</button>
+                        
                         <button onClick={() => handleDelete(_id)} className="btn bg-red-600">Delete</button>
                     </div>
             <div className="flex justify-between w-full pr-4">
                 <div>
-                    <h1 className='text-2xl'>Country Name: {countryName}</h1>
-                    <h2 className="card-title">Spot Name: {spotName}</h2>
-                    <Link to={location} target='blank'>Location: {location}</Link>
-                    <h3>Short Description: {description}</h3>
+                    <h1 className='text-2xl'>Category: {countryName}</h1>
+                    <h2 className="card-title">Assignment Name: {spotName}</h2>
+                    <p to={location} target='blank'>Purpose: {location}</p>
+                    {/* <h3>Short Description: {description}</h3>
                     <h4>Average Cost: {cost}</h4>
                     <h5>Seasonality: {seasonality}</h5>
                     <h6>Tourism Duration: {time}</h6>
                     <p>Average Total Visitors: {visitor}</p>
                     <p>User Email: {email}</p>
-                    <p>User Name: {userName}</p>
+                    <p>User Name: {userName}</p> */}
                     {/* <p>{quantity}</p> */}
                     {/* <p>{supplier}</p> */}
                     {/* <p>{taste}</p> */}
