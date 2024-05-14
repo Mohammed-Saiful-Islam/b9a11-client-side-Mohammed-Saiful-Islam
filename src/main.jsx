@@ -21,6 +21,7 @@ import London from './components/London.jsx';
 import WashingtonDC from './components/WashingtonDC.jsx';
 import Brasilla from './components/Brasilla.jsx';
 import Canberra from './components/Canberra.jsx';
+import AddAssignment from './components/AddAssignment.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "addCoffee",
     element: <AddCoffee />
+  },
+  {
+    path: "addAssignment",
+    element: <AddAssignment />
   },
   {
     path: 'updateCoffee/:id',
