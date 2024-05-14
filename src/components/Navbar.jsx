@@ -19,6 +19,7 @@ const Navbar = () => {
         <li><NavLink to="/signup">Register</NavLink></li>
         <li><NavLink to="/users">Students</NavLink></li>
         <li><NavLink to="/addAssignment">Add An Assignment</NavLink></li>
+        {/* <li><NavLink to="/addCoffee">Add An Assignment</NavLink></li> */}
         {/* <li><NavLink to="/dhaka">Dhaka</NavLink></li>
         <li><NavLink to="/capetown">Cape Town</NavLink></li>
         <li><NavLink to="/london">London</NavLink></li>
