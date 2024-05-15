@@ -2,8 +2,8 @@ import React from 'react';
 
 const Features = () => {
     return (
-<div className='max-w-7xl mx-auto'>
-<section className="m-4 md:m-8 dark:bg-gray-100 dark:text-gray-800">
+<div className='max-w-6xl mx-auto'>
+<section className="m-4 md:m-8 bg-orange-300">
 	<div className="container mx-auto p-4 my-6 space-y-2 text-center">
 		<h2 className="text-5xl font-bold">Our Fetures</h2>
 		<p className="dark:text-gray-600">We have some Fetures that you may like it</p>
