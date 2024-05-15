@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer footer-center p-10 bg-orange-950 text-[#c88034]">
   <aside>
-   <img src='https://img.freepik.com/premium-vector/study-group-logo-template-design_20029-469.jpg?w=740' alt="" className='w-48' />
+   <img src='https://i.ibb.co/nzYbBng/Screenshot-104.png' alt="" className='w-48' />
     <p className="font-bold">
       Mallik OGSS Co. Ltd. <br/>Providing Online Group Study Service since 1991
     </p> 
