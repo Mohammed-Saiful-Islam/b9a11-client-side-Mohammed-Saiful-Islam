@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
+import Features from './components/Features';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         
       </div>
     </div>
+    <Features/>
     <Footer/>
     </div>
     
