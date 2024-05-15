@@ -41,19 +41,19 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
     }
 
     return (
-        <div className=" bg-base-100 shadow-xl">
+        <div className=" bg-orange-950 shadow-xl">
             <div>
             <img className='max-h-48' src={photo} alt="TouristSpot" />
             </div>
             <div className="card-actions justify-end">
-                    <div className=" space-y-4">
+                    <div className=" space-y-4 ">
                         
-                        <button className="btn bg-green-600">Join</button>
+                        <button className="btn bg-green-600 text-white hover:text-black">Join</button>
                         
-                        <button onClick={() => handleDelete(_id)} className="btn bg-red-600">Delete</button>
+                        <button onClick={() => handleDelete(_id)} className="btn bg-red-600 text-white hover:text-black">Delete</button>
                     </div>
             <div className="flex justify-between w-full pr-4">
-                <div>
+                <div className='text-white'>
                     <h1 className='text-2xl'>Category: {countryName}</h1>
                     <h2 className="card-title">Assignment Name: {spotName}</h2>
                     <p to={location} target='blank'>Purpose: {location}</p>

@@ -15,7 +15,7 @@ function App() {
   const [coffees,setCoffees]=useState(loadedCoffees);
 
   return (
-    <div className='bg-orange-300'>
+    <div className='bg-orange-300 space-y-4'>
       <Navbar/>
       <Banner/>
 <div className='m-20 max-w-6xl mx-auto'>
