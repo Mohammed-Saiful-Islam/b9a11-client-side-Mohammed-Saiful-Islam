@@ -41,7 +41,7 @@ const SignIn = () => {
         <div>
           <Navbar/>
             <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+  <div className="space-y-4">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold text-orange-950">Login now!</h1>
     </div>
