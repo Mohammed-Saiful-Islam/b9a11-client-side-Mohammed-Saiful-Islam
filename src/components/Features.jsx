@@ -3,10 +3,10 @@ import React from 'react';
 const Features = () => {
     return (
 <div className='max-w-6xl mx-auto'>
-<section className="m-4 md:m-8 bg-orange-300">
+<section className="m-4 md:m-8 bg-orange-300 text-black">
 	<div className="container mx-auto p-4 my-6 space-y-2 text-center">
 		<h2 className="text-5xl font-bold">Our Fetures</h2>
-		<p className="dark:text-gray-600">We have some Fetures that you may like it</p>
+		<p className="">We have some Fetures that you may like it</p>
 	</div>
 	<div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
 		<div className="flex flex-col items-center p-4">
