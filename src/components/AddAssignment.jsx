@@ -48,7 +48,7 @@ const AddAssignment = () => {
     return (
         <div>
             <Navbar/>
-            <div className="bg-[#F4F3F0] p-24">
+            <div className="bg-orange-300 p-24 min-h-screen">
             
             <h1 className="text-3xl font-extrabold">Add An Assignment</h1>
             <form onSubmit={handleAddCoffee}>
@@ -169,7 +169,7 @@ const AddAssignment = () => {
                         </label>
                     </div>
                 </div> */}
-                <input type="submit" value="Add Assignment" className="btn btn-block mt-8" />
+                <input type="submit" value="Add An Assignment" className="btn bg-orange-600 text-white hover:text-black btn-block mt-8" />
             </form>
             
         </div>

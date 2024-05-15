@@ -24,9 +24,9 @@ const Users = () => {
     }
 
     return (
-        <div className="">
+        <div className="bg-orange-300 ">
             <Navbar/>
-     <div className="overflow-x-auto max-w-6xl mx-auto">
+     <div className="overflow-x-auto max-w-6xl mx-auto min-h-screen">
      <h2 className="text-center font-bold text-3xl">Students: {loadedUsers.length}</h2>
                 <table className="table">
                     {/* head */}

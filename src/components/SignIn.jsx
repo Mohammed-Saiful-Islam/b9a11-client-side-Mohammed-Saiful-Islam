@@ -38,9 +38,9 @@ const SignIn = () => {
     })
   }
     return (
-        <div>
+        <div className="space-y-4 bg-orange-300">
           <Navbar/>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="min-h-screen hero  bg-orange-300">
   <div className="space-y-4">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold text-orange-950">Login now!</h1>

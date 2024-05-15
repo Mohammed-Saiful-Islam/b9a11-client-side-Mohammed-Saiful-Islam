@@ -39,9 +39,9 @@ const SignUp = () => {
   }
 
   return (
-    <div>
+    <div className="space-y-4 bg-orange-300">
       <Navbar/>
-       <div className="hero min-h-screen bg-base-200">
+       <div className="hero min-h-screen bg-orange-300">
       
       <div className="space-y-4">
         <div className="text-center lg:text-left">

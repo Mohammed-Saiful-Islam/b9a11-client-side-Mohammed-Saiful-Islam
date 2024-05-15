@@ -2,6 +2,7 @@ import React from 'react';
 
 const FAQ = () => {
     return (
+<div className='max-w-7xl mx-auto'>
 <section className="dark:bg-gray-100 dark:text-gray-800">
 	<div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
 		<h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
@@ -28,7 +29,8 @@ const FAQ = () => {
 			</div>
 		</div>
 	</div>
-</section>
+</section>	
+</div>
     );
 };
 
