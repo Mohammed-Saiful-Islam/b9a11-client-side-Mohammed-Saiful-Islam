@@ -45,28 +45,28 @@ const SignUp = () => {
       
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="text-center lg:text-left">
-          <h1 className="text-5xl font-bold">Sign up now!</h1>
+          <h1 className="text-5xl font-bold text-orange-950">Sign up now!</h1>
 
         </div>
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-          <form onSubmit={handleSignUp} className="card-body">
+          <form onSubmit={handleSignUp} className="card-body bg-orange-950 rounded-xl">
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text text-white">Email</span>
               </label>
               <input name="email" type="email" placeholder="email" className="input input-bordered" required />
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Password</span>
+                <span className="label-text text-white">Password</span>
               </label>
               <input name="password" type="password" placeholder="password" className="input input-bordered" required />
               <label className="label">
-                <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                <a href="#" className="label-text-alt link link-hover text-white hover:bg-white">Forgot password?</a>
               </label>
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Sign Up</button>
+              <button className="btn btn-primary hover:bg-orange-600">Sign Up</button>
             </div>
           </form>
         </div>

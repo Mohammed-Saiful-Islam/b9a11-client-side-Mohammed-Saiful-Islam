@@ -43,27 +43,27 @@ const SignIn = () => {
             <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
-      <h1 className="text-5xl font-bold">Login now!</h1>
+      <h1 className="text-5xl font-bold text-orange-950">Login now!</h1>
     </div>
     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-      <form onSubmit={handleSignIn} className="card-body">
+      <form onSubmit={handleSignIn} className="card-body bg-orange-950 rounded-xl">
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Email</span>
+            <span className="label-text text-white">Email</span>
           </label>
           <input type="email" name="email"  placeholder="email" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
-            <span className="label-text">Password</span>
+            <span className="label-text text-white">Password</span>
           </label>
           <input type="password" name="password" placeholder="password" className="input input-bordered" required />
           <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+            <a href="#" className="label-text-alt link link-hover text-white hover:bg-white">Forgot password?</a>
           </label>
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Login</button>
+          <button className="btn btn-primary hover:bg-orange-600">Login</button>
         </div>
       </form>
     </div>
